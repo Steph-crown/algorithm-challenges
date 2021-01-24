@@ -9,13 +9,11 @@ class Person():
         return self.weight / (self.height ** 2)
 
 
-def getBMI(parameter_list):
-    """
-    docstring
-    """
-    pass
+def main():
+    
+    weight = float(input("Enter weight"))
+    height = float(input("Enter height"))
+    newPerson = Person(weight, height)
+    print(newPerson.getBmi())
 
-weight = int(input("Enter weight"))
-height = int(input("Enter height"))
-newPerson = Person(weight, height)
-print(newPerson.getBmi())
+main()
