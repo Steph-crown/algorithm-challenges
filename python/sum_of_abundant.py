@@ -42,6 +42,7 @@ def sum_abundant(n):
 	#Returns sum
 	return sum
 	
+	
 
 print (abundant(220))
 print (sum_abundant(100))
